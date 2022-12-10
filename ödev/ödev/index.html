@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Instagram</title>
+  </head>
+  <style>
+    .navv {
+        background-color: #f8f9fa;
+        width: 1360px;
+        height: 75px;
+    }
+
+    .box1 {
+        position: relative;
+        top: 20px;
+    }
+
+    .ft1 {
+        width: 135px;
+        height: 40px;
+        position: relative;
+        left: 200px;
+        top: 15px;
+    }
+
+    .hr1 {
+        position: relative;
+        bottom: 15px;
+    }
+
+    .searchh {
+        position: relative;
+        left: 550px;
+        bottom: 20px;
+        width: 200px;
+        height: 35px;
+        text-align: center;
+    }
+
+    .ft2 {
+        position: relative;
+        left: 1000px;
+        bottom: 55px;
+    }
+
+    .cardd {
+        height: 150px;
+    }
+
+    .tx1 {
+        position: relative;
+        left: 170px;
+        bottom: 19px;
+    }
+
+    .ft3 {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        bottom: 30px;
+        right: 10px;
+    }
+
+    .tx3 {
+        position: relative;
+        bottom: 62px;
+        left: 44px;
+        text-decoration: none;
+    }
+
+    .tx4 {
+        position: relative;
+        bottom: 101px;
+        left: 174px;
+        text-decoration: none;
+    }
+
+    .a1 {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{color:black;}
+
+    .ft4 {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        bottom: 110px;
+        right: 10px;
+    }
+
+    .tx5 {
+        position: relative;
+        bottom: 142px;
+        left: 44px;
+        text-decoration: none;
+    }
+
+    .tx6 {
+        position: relative;
+        bottom: 181px;
+        left: 174px;
+        text-decoration: none;
+    }
+
+    .ft5 {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        bottom: 190px;
+        right: 10px;
+    }
+
+    .tx7 {
+        position: relative;
+        bottom: 222px;
+        left: 44px;
+        text-decoration: none;
+    }
+
+    .tx8 {
+        position: relative;
+        bottom: 261px;
+        left: 174px;
+        text-decoration: none;
+    }
+
+    .ft6 {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        bottom: 270px;
+        right: 10px;
+    }
+
+    .tx9 {
+        position: relative;
+        bottom: 302px;
+        left: 44px;
+        text-decoration: none;
+    }
+
+    .tx10 {
+        position: relative;
+        bottom: 341px;
+        left: 174px;
+        text-decoration: none;
+    }
+
+    .ft7 {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        bottom: 350px;
+        right: 10px;
+    }
+
+    .tx11 {
+        position: relative;
+        bottom: 382px;
+        left: 44px;
+        text-decoration: none;
+    }
+
+    .tx12 {
+        position: relative;
+        bottom: 421px;
+        left: 174px;
+        text-decoration: none;
+    }
+
+    .ft8 {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        left: 40px;
+    }
+
+    .ft9 {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        left: 40px;
+    }
+
+    .ft10 {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        left: 40px;
+    }
+
+    .ft11 {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        left: 40px;
+    }
+
+    .ft12 {
+        position: relative;
+        width: 100px;
+        left: 40px;
+        height: 100px;
+    }
+
+    .ft13 {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        left: 40px;
+    }
+
+    .ft14 {
+        position: relative;
+        left: 40px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .box3 {
+        position: relative;
+        height: 940px;
+    }
+
+    .ft15 {
+        position: relative;
+        width: 100px;
+        height: 100px;
+    }
+
+    .t1 {
+        position: relative;
+        left: 110px;
+        bottom: 60px;
+    }
+
+    .ft16 {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        left: 650px;
+        bottom: 106px;
+    }
+
+    .ft17 {
+        position: relative;
+        width: 734px;
+        bottom: 30px;
+        right: 16px;
+        height: 400px;
+    }
+
+    .z1 {
+        position: relative;
+        width: 55px;
+        height: 35px;
+        bottom: 20px;
+        right: 15px;
+    }
+
+    .z2 {
+        position: relative;
+        width: 55px;
+        height: 50px;
+        bottom: 17px;
+        right: 30px;
+    }
+
+    .z3 {
+        position: relative;
+        width: 55px;
+        height: 50px;
+        bottom: 17px;
+        right: 48px;
+    }
+
+    .z4 {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        bottom: 19px;
+        left: 483px;
+    }
+
+    .ft18 {
+        width: 70px;
+        height: 70px;
+        top: 50px;
+        right: 255px;
+        position: relative;
+    }
+
+    .m1 {
+        position: relative;
+        left: 50px;
+        top: 6px;
+    }
+
+    .m2 {
+        position: relative;
+        right: 8px;
+    }
+
+    .m3 {
+        position: relative;
+        width: 700px;
+        height: 3px;
+        color: black;
+    }
+
+    .m5 {
+        position: relative;
+        left: 660px;
+        bottom: 40px;
+    }
+
+    .box4 {
+        width: 736px;
+        right: 18px;
+    }
+
+    .box5 {
+        width: 736px;
+        right: 18px;
+    }
+  </style>
+  <body style="position: relative;">
+    <nav class="navv">
+        <img class="ft1" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\indir-removebg-preview (1).png" alt="">
+        <div class="row">
+            <div class="col-sm-3">
+                <form class="d-flex">
+                    <input class="searchh form-control me-2" type="ara" placeholder="ara" aria-label="ara">
+                  </form>
+            </div>
+        </div>
+        <a href="#">
+         <img class="ft2" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\2.png" alt="">
+        </a>
+    </nav>
+    <hr class="hr1">
+    <article class="articalee">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-8 box1">
+                    <div class="card">
+                        <div class="cardd card-body">
+                            <a href="#">
+                                <img class="ft8" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                                <img class="ft9" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                                <img class="ft10" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                                <img class="ft11" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                                <img class="ft12" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                                <img class="ft13" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                            </a>
+                        </div>
+                      </div>
+                      <div class="card mt-3 box3">
+                        <div class="cardd card-body">
+                            <img class="ft15" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                            <p class="t1"><strong>Kitty cihicka</strong></p>
+                            <img class="ft16" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\c.png" alt="">
+                            <img class="ft17" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\MV5BOGE5MmE2NjMtZDMwZC00ZGU3LTlhMjMtMDhlMTk0NTY0ZGYzXkEyXkFqcGdeQXVyMTE0MTkwNTIw._V1_.jpg" alt="">
+                                <img class="z1" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\1947152-instagram_twitter.jpg" alt="">
+                                <img class="z2" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\1947152-instagram_twitter1.jpg" alt="">
+                                <img class="z3" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\1947152-instagram_twitter2.jpg" alt="">
+                                <img class="z4" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\1947152-instagram_twitter3.jpg" alt="">
+                                <img class="ft18" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                                <p class="m1"><strong>Kitty cihicka </strong> ve <strong>44 diğer kişi </strong> beğendi</p>
+                                <p class="m2 text-muted">15 yourmun tümünü gör</p>
+                                <p><strong>Kitty cihicka </strong>I'think you dont like me</p>
+                                <p><strong>Kitty chicka </strong> ne yazmalıyım bilemiyorum blablablalbabla</p>
+                                <p class="text-muted">10 saat önce</p>
+                                <hr class="m3">
+                                <p class="m4 text-muted">Yorum ekle...</p>
+                                <p class="m5 text-info">Paylaş</p>
+                                <div class="card mt-3 box4">
+                                    <div class="carde card-body">
+                                        <img class="ft15" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                                        <p class="t1"><strong>Leo messi</strong></p>
+                                        <img class="ft16" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\c.png" alt="">
+                                        <img class="ft17" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\Lionel_Messi_PSG_2022-23.jpg" alt="">
+                                        <img class="z1" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\1947152-instagram_twitter.jpg" alt="">
+                                        <img class="z2" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\1947152-instagram_twitter1.jpg" alt="">
+                                        <img class="z3" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\1947152-instagram_twitter2.jpg" alt="">
+                                        <img class="z4" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\1947152-instagram_twitter3.jpg" alt="">
+                                        <img class="ft18" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                                        <p class="m1"><strong>Leo messi </strong> ve <strong>44 diğer kişi </strong> beğendi</p>
+                                        <p class="m2 text-muted">115 yourmun tümünü gör</p>
+                                        <p><strong>Leo messi </strong>I'think you dont like me</p>
+                                        <p><strong>Leo messi </strong> ne yazmalıyım bilemiyorum blablablalbabla</p>
+                                        <p class="text-muted">10 saat önce</p>
+                                        <hr class="m3">
+                                        <p class="m4 text-muted">Yorum ekle...</p>
+                                        <p class="m5 text-info">Paylaş</p>
+                                    </div>
+                                </div>
+                                <div class="mt-3 card box5">
+                                    <div class="carda card-body">
+                                        <img class="ft15" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                                        <p class="t1"><strong>Henry cavill</strong></p>
+                                        <img class="ft16" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\c.png" alt="">
+                                        <img class="ft17" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\The-Rake-Henry-Cavill-00007xy.jpg" alt="">
+                                        <img class="z1" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\1947152-instagram_twitter.jpg" alt="">
+                                        <img class="z2" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\1947152-instagram_twitter1.jpg" alt="">
+                                        <img class="z3" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\1947152-instagram_twitter2.jpg" alt="">
+                                        <img class="z4" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\1947152-instagram_twitter3.jpg" alt="">
+                                        <img class="ft18" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                                        <p class="m1"><strong>Henry cavill </strong> ve <strong>44 diğer kişi </strong> beğendi</p>
+                                        <p class="m2 text-muted">48 yourmun tümünü gör</p>
+                                        <p><strong>Henry cavill </strong>I'think you dont like me bro can ı get your ınstagram</p>
+                                        <p><strong>Henry cavill </strong> ne yazmalıyım bilemiyorum çift kırma yavru araba sattım</p>
+                                        <p class="text-muted">10 saat önce</p>
+                                        <hr class="m3">
+                                        <p class="m4 text-muted">Yorum ekle...</p>
+                                        <p class="m5 text-info">Paylaş</p>
+                                    </div>
+                                </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="">
+                        <div class="card-body">
+                          <h5 class="tx2 card-title">1kucuk.muhammed</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Senin için önerilenler<p class="tx1 text-muted">Tümünü gör</p></h6>
+                            <a class="a1" href="#">
+                                <img class="ft3" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                                <p class="tx3">Kitty chicka</p>
+                                <p class="tx4 text-info">Takip et</p>
+                            </a>
+                            <a class="a1" href="#">
+                                <img class="ft4" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                                <p class="tx5">Leomessi</p>
+                                <p class="tx6 text-info">Takip et</p>
+                            </a>
+                            <a class="a1" href="#">
+                                <img class="ft5" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                                <p class="tx7">1cagataydn</p>
+                                <p class="tx8 text-info">Takip et</p>
+                            </a>
+                            <a class="a1" href="#">
+                                <img class="ft6" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                                <p class="tx9">1brsshn</p>
+                                <p class="tx10 text-info">Takip et</p>
+                            </a>
+                            <a class="a1" href="#">
+                                <img class="ft7" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+                                <p class="tx11">Btuhnn</p>
+                                <p class="tx12 text-info">Takip et</p>
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </article>
+    <!--
+    <img class="ft3" src="C:\Users\kucuk\OneDrive\Masaüstü\ödev\img\profile+user+user+profile+icon-1320184051489783432-removebg-preview.png" alt="">
+    -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
